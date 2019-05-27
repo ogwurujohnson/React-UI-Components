@@ -1,14 +1,14 @@
 import React from 'react'
 import './Footer.css';
 
-export default function Footer() {
+export default function Footer({content}) {
     return (
         <div className="footerSection">
             <div className="iconSection">
-                <img src="https://img.icons8.com/metro/26/000000/topic.png" alt=""></img>
-                <img src="https://img.icons8.com/windows/32/000000/retweet.png" alt=""></img>
-                <img src="https://img.icons8.com/ios/50/000000/hearts.png" alt=""></img>
-                <img src="https://img.icons8.com/ios/50/000000/new-post.png"  alt=""></img>
+                <img src={content.comment} alt=""></img>
+                <img src={content.retweet} alt=""></img>
+                <img src={content.like} alt=""></img>
+                <img src={content.message} alt=""></img>
             </div>
         </div>
     )

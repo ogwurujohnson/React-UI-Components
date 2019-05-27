@@ -1,15 +1,14 @@
 import React from "react";
 import "./Card.css";
 
-export default function CardContent() {
+export default function CardContent({title, link, content}) {
   return (
     <div className="cardContent">
-      <h1>Get started with React</h1>
+      <h1>{title}</h1>
       <p>
-        React makes it painless to create interactive UIs. Design simple views
-        or each state in your application
+        {content}
       </p>
-      <i>reactjs.org</i>
+      <i>{link}</i>
     </div>
   );
 }
