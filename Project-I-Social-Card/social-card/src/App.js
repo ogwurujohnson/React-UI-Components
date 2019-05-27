@@ -22,9 +22,22 @@ const cardContent = {
 
 const footerContent = {
   like: "https://img.icons8.com/ios/50/000000/hearts.png",
+  likeValue: 0,
   retweet: "https://img.icons8.com/windows/32/000000/retweet.png",
+  retweetValue: 0,
   message: "https://img.icons8.com/ios/50/000000/new-post.png",
   comment: "https://img.icons8.com/metro/26/000000/topic.png",
+}
+
+const methods = {
+  onClick: () => {
+    alert('interactive button clicked');
+  },
+
+  redirectLink: () => {
+    window.location.href = "https://www.reactjs.org";
+  }
+  
 }
 
 
@@ -33,8 +46,8 @@ const App = () => {
     <div className="App">
       <div className="mainContainer">
         <Header content = {headerText}/>
-        <Card content = {cardContent} />
-        <Footer content= {footerContent} />
+        <Card content = {cardContent} method={methods}/>
+        <Footer content= {footerContent} method={methods} />
       </div>
     </div>
   );
