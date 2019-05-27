@@ -24,8 +24,6 @@
     align-self: baseline;
 }
 
-.headerContent {
-}
 .headerContent p {
     font-size: 16px;
     color: grey;
@@ -33,11 +31,12 @@
 
 .imageContainer {
     height: 70%;
-    width: 23%;
+    width: 20%;
+    align-self: flex-start;
 }
 
 .imageContainer img {
-    width: 70%;
+    width: 50%;
     height: 50%;
     padding: 12px;
 }
