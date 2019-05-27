@@ -9,9 +9,11 @@ import Footer from './components/FooterComponents/Footer';
 const App = () => {
   return (
     <div className="App">
-      <Header />
-      <Card />
-      <Footer />
+      <div className="mainContainer">
+        <Header />
+        <Card />
+        <Footer />
+      </div>
     </div>
   );
 };

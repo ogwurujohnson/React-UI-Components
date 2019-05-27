@@ -1,12 +1,10 @@
 /* All styles for your header Components live here */
 .header {
-    border: 1px solid red;
     height: 20%;
     display: flex;
 }
 
 .headerTitle {
-    border: 1px solid blue;
     height: 35%;
     width: 100%;
     display: flex;
@@ -27,7 +25,6 @@
 }
 
 .headerContent {
-    border: 1px solid teal;
 }
 .headerContent p {
     font-size: 16px;
@@ -35,7 +32,6 @@
 }
 
 .imageContainer {
-    border: 1px solid yellow;
     height: 70%;
     width: 23%;
 }

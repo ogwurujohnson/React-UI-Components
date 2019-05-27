@@ -1,17 +1,16 @@
 .footerSection {
-    border: 3px solid yellow;
 }
 
 .iconSection{
     width: 90%;
-    margin-left: 9%;
-    border: 5px solid blue;
+    margin-left: 16%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 3%;
 }
 
 .iconSection img {
-    width: 3%;
+    width: 4%;
     height: 3%;
     padding: 10px;
     color: grey;
