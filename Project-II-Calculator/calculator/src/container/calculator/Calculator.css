@@ -2,4 +2,5 @@
     width: 30%;
     margin: 0 auto;
     border: 2px solid grey;
+    box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey
 }
