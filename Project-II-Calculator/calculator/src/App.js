@@ -9,7 +9,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h3>Welcome to React Calculator</h3>
+        <h3>React Calculator</h3>
         <Calculator />
       </div>
     )
