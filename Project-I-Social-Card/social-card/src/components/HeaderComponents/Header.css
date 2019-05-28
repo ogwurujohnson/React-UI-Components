@@ -1,1 +1,48 @@
 /* All styles for your header Components live here */
+.header {
+    height: 20%;
+    display: flex;
+}
+
+.headerTitle {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+}
+
+.headerTitle h1{
+    font-size: 14px;
+    padding: .2%;
+    align-self: baseline;
+}
+.headerTitle p {
+    font-size: 12px;
+    padding: .2%;
+    color: grey;
+    align-self: baseline;
+}
+
+.headerContent p {
+    font-size: 16px;
+    color: grey;
+}
+
+.imageContainer {
+    height: 70%;
+    width: 20%;
+    align-self: flex-start;
+}
+
+.imageContainer img {
+    width: 50%;
+    height: 50%;
+    padding: 12px;
+}
+
+.headerText {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
