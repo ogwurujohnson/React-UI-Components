@@ -10,20 +10,29 @@
     font-size: 32px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.actionButton:hover {
+    background-color: lightblue;
+}
 
 .numberButton {
     width: 33.33%;
     background-color: white;
     border: 1px solid grey;
     color: black;
-    font-size: 23px;
+    font-size: 32px;
+}
+.numberButton:hover {
+    background-color: lightblue;
 }
 
 .operatorButton {
     width: 100%;
     background: darkred;
     color: white;
-    font-size: 23px;
+    font-size: 50px;
+}
+.operatorButton:hover {
+    background-color: #630202;
 }
 
 button {
