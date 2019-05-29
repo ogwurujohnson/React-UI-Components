@@ -1,0 +1,16 @@
+.display {
+    border: 1px solid black;
+    background: black;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    height: 100px;
+}
+
+.display h1 {
+    padding-top: 0;
+    vertical-align: top;
+    margin-top: 15px;
+    font-size: 62px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
